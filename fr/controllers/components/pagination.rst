@@ -74,7 +74,7 @@ Vous pouvez aussi inclure d'autres options
 Alors que vous pouvez passer la plupart des options de query à partir de la
 propriété paginate, il est souvent plus propre et simple de mettre vos options
 de pagination dans une :ref:`custom-find-methods`. vous pouvez définir
-l'utilisation de la pagination du finder en configurant l'option ``findType``::
+l'utilisation de la pagination du finder en configurant l'option ``finder``::
 
     class ArticlesController extends AppController
     {
